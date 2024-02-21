@@ -10,3 +10,7 @@
 	path = dep/plog
 	url = https://github.com/SergiusTheBest/plog
 	branch = master
+[submodule "dep/boost"]
+	path = dep/boost
+	url = https://github.com/boostorg/boost.git
+	branch = master
