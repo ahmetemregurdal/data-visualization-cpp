@@ -1,0 +1,12 @@
+[submodule "dep/hedley"]
+	path = dep/hedley
+	url = https://github.com/nemequ/hedley
+	branch = master
+[submodule "dep/argparse"]
+	path = dep/argparse
+	url = https://github.com/p-ranav/argparse
+	branch = master
+[submodule "dep/plog"]
+	path = dep/plog
+	url = https://github.com/SergiusTheBest/plog
+	branch = master
