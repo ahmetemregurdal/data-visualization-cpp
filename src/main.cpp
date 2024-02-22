@@ -40,5 +40,4 @@ int main(int argc, char** argv) {
 	parseArgs(argc, argv);
 	rapidcsv::Document doc(inputFile, rapidcsv::LabelParams(0, 0),
 						rapidcsv::SeparatorParams(seperatorChar));
-	std::vector<std::string> columnNames = doc.GetColumnNames();
 }
