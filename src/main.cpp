@@ -9,7 +9,7 @@
 #include "stdexcept"
 
 std::string inputFile;
-char seperatorChar = ',';
+char seperatorChar;
 
 auto parseArgs(int argc, char** argv) -> void {
 	argparse::ArgumentParser parser("cpp-data-visualiser");
@@ -17,8 +17,8 @@ auto parseArgs(int argc, char** argv) -> void {
 		.help("File used in the prgogram as input");
 
 	parser.add_argument("-s", "--seperator")
-		.help("Seperator character in csv, default value is ','")
-		.default_value(std::string("-"));
+		.help("Seperator character in csv, default value is ';'")
+		.default_value(std::string(";"));
 
 	try {
 		parser.parse_args(argc, argv);
