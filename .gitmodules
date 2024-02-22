@@ -14,3 +14,7 @@
 	path = dep/boost
 	url = https://github.com/boostorg/boost.git
 	branch = master
+[submodule "dep/rapidcsv"]
+	path = dep/rapidcsv
+	url = https://github.com/d99kris/rapidcsv
+	branch = master
