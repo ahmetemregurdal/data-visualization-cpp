@@ -1,12 +1,13 @@
-#include "../dep/rapidcsv/src/rapidcsv.h"
-#include "../dep/argparse/include/argparse/argparse.hpp"
-#include "../dep/hedley/hedley.h"
-#include "string"
-#include "iostream"
-#include "exception"
-#include "vector"
-#include "algorithm"
-#include "stdexcept"
+#include <argparse/argparse.hpp>
+#include "hedley.h"
+#include "rapidcsv.h"
+#include <string>
+#include <iostream>
+#include <exception>
+#include <vector>
+#include <algorithm>
+#include <stdexcept>
+#include <matplot/matplot.h>
 
 std::string inputFile;
 char seperatorChar;
