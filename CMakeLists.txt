@@ -22,4 +22,4 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(argparse)
 
 add_executable(data-visualization-cpp ./src/main.cpp)
-target_link_libraries(data-visualization-cpp PUBLIC argparse matplot rapidcvs)
+target_link_libraries(data-visualization-cpp PUBLIC argparse matplot)
